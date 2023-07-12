@@ -4,7 +4,7 @@ Configuration vcc_ws2019{
         [string[]]$ComputerName = 'localhost'
     )
 
-    Import-DscResource -ModuleName 'PSDesiredStateConfiguration'
+    Import-DscResource -ModuleName 'nPSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'AuditPolicyDsc'
     Import-DscResource -ModuleName 'SecurityPolicyDsc'
     Import-DscResource -ModuleName 'NetworkingDsc'
